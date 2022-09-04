@@ -1,0 +1,10 @@
+.burger-menu{
+    display: flex;
+    flex-direction: column;
+
+}
+.burger-menu > span{
+    width: 20px;
+    height: 2px;
+    background-color: black;
+} 

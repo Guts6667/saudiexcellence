@@ -1,0 +1,9 @@
+.section__home{
+    height: 1000px;
+    /* background-image: url('../../assets/desert.png'); */
+    background: url('../../assets/desert.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+}
