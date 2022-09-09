@@ -31,15 +31,15 @@ const Header = () =>{
             <h1>Saudi Excellence Co.</h1>
         </div>
         <nav className="container__header-nav">
-            <a href="#">{`About & Vision`}</a>
-            <a href="#">Mission</a>
-            <a href="#">Teams</a>
-            <a href="#">{`Investors & Rookies`}</a>
-            <a href="#">AI News</a>
-            <a href="#">Documents</a>
+            <a href="#about">{`About & Vision`}</a>
+            <a href="#mission">Mission</a>
+            <a href="#team">Team</a>
+            <a href="#investors">{`Investors & Rookies`}</a>
+            <a href="#news">AI News</a>
+            <a href="#documents">Documents</a>
         </nav>
         <div className="container__header-btn">
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
         </div>
         {isOpen  ?
             <BurgerNav /> : ''

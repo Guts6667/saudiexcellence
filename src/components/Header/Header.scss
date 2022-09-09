@@ -8,7 +8,7 @@ $green: #e0f970;
   width: 100%;
   background: linear-gradient(
     180deg,
-    rgba(30, 30, 30, 0.7) 0%,
+    rgba(30, 30, 30, 0.9) 0%,
     rgba(30, 30, 30, 0) 100%
   );
   @media only screen and (min-width: 1200px) {
@@ -73,7 +73,7 @@ $green: #e0f970;
       background: rgba(0, 0, 0, 0.1);
       padding: 3px 15px;
     }
-    @media only screen and (min-width: 1200px) {
+    @media only screen and (min-width: 768px) {
       width: auto;
       a {
         font-size: 18px;

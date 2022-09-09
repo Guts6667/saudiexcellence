@@ -7,9 +7,12 @@
   src: url("./fonts/Poppins/Poppins-Light.ttf") format("ttf");
 }
 
+* {
+  font-family: "Poppins", "Coolvetica", Arial, Helvetica, sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: "Poppins", "Coolvetica", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -30,5 +33,16 @@ a {
 
 h1 {
   font-family: "Coolvetica", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  h2 {
+    font-size: 50px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

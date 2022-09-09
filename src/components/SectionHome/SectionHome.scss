@@ -1,0 +1,36 @@
+$green: #e0f970;
+.section__home {
+  height: 100vh;
+  background: url("../../assets/desert.png");
+  background-color: rgba(0, 0, 0, 0.95);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+
+  h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  strong,
+  .chevron {
+    color: $green;
+  }
+  @media only screen and (min-width: 1200px) {
+    h2 {
+      font-size: 50px;
+    }
+    .chevron {
+      font-size: 3em;
+    }
+    a {
+      display: inline-block;
+    }
+  }
+}

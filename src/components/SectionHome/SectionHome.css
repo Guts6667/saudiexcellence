@@ -1,0 +1,47 @@
+.section__home {
+  height: 100vh;
+  background: url("../../assets/desert.png");
+  background-color: rgba(0, 0, 0, 0.95);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 50px;
+}
+
+.section__home h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.section__home strong,
+.section__home .chevron {
+  color: #e0f970;
+}
+
+@media only screen and (min-width: 1200px) {
+  .section__home h2 {
+    font-size: 50px;
+  }
+  .section__home .chevron {
+    font-size: 3em;
+  }
+  .section__home a {
+    display: inline-block;
+  }
+}
+/*# sourceMappingURL=SectionHome.css.map */

@@ -1,12 +1,13 @@
 import React from "react";
-import './Home.scss'
+import SectionHome from "../../components/SectionHome";
+import SectionAbout from "../../components/SectionAbout";
 const Home = () => {
 
     return(
-        <section className="section__home" >
-            
-            
-        </section>
+        <div  >
+            <SectionHome />    
+            <SectionAbout />
+        </div>
     )
 }
 

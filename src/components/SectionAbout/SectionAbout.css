@@ -1,0 +1,75 @@
+.section__about {
+  height: 100%;
+  width: auto;
+  background: url("../../assets/meteor.png");
+  background-color: rgba(0, 0, 0, 0.95);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 30px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+}
+
+.section__about-title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__about-title .line {
+  height: 1px;
+  width: 7%;
+  background-color: #e0f970;
+  margin-right: 20px;
+}
+
+.section__about .box-about strong {
+  color: #e0f970;
+  height: 30%;
+}
+
+.section__about .box-about-left {
+  text-align: justify;
+  border-left: 1px solid #e0f970;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.section__about .box-about-right {
+  border-right: 1px solid #e0f970;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 768px) {
+  .section__about .box-about {
+    width: 60%;
+  }
+  .section__about .box-about-right {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .section__about .box-about-left {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .section__about .box-about {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=SectionAbout.css.map */
