@@ -24,6 +24,7 @@
 
 .container__header-burger {
   width: 20%;
+  z-index: 7;
 }
 
 @media only screen and (min-width: 1200px) {

@@ -1,0 +1,41 @@
+$green: #e0f970;
+.container__vision {
+  height: 100%;
+  width: auto;
+  background: url("../../assets/vision-bg.png");
+  background-color: rgba(0, 0, 0, 0.95);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+
+  &-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-block-end: 0;
+    h2 {
+      margin-block-end: 0;
+    }
+  }
+
+  .line {
+    height: 1px;
+    width: 7%;
+    background-color: $green;
+    margin-right: 20px;
+  }
+  span {
+    font-weight: 500;
+    font-size: 12px;
+    color: $green;
+  }
+  .box-vision {
+    padding: 30px 0 30px 0;
+    margin: 0 7% 0 7%;
+    text-align: justify;
+  }
+}

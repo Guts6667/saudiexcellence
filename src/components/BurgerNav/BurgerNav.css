@@ -1,7 +1,7 @@
 .container__burgerNav {
   position: fixed;
   width: 100%;
-  height: 80%;
+  height: 100vh;
   z-index: 3;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,9 +12,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: rgba(30, 30, 30, 0.5);
-  -webkit-transform: translate(0, 60%);
-          transform: translate(0, 60%);
+  background: rgba(30, 30, 30, 0.95);
+  top: 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;

@@ -43,6 +43,8 @@ $green: #e0f970;
     }
     @media only screen and (min-width: 768px) {
       width: 60%;
+      margin-left: 7%;
+      margin-right: 7%;
       &-right {
         align-self: flex-end;
       }
