@@ -1,0 +1,28 @@
+$green: #e0f970;
+.container__burgerNav {
+  position: fixed;
+  width: 100%;
+  height: 80%;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(30, 30, 30, 0.5);
+  transform: translate(0, 60%);
+  flex-direction: column;
+  row-gap: 10%;
+  a {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    &:hover {
+      color: $green;
+    }
+    &:active {
+      text-decoration: underline $green;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    display: none;
+  }
+}

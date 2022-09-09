@@ -1,0 +1,45 @@
+.container__burgerNav {
+  position: fixed;
+  width: 100%;
+  height: 80%;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(30, 30, 30, 0.5);
+  -webkit-transform: translate(0, 60%);
+          transform: translate(0, 60%);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10%;
+}
+
+.container__burgerNav a {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.container__burgerNav a:hover {
+  color: #e0f970;
+}
+
+.container__burgerNav a:active {
+  -webkit-text-decoration: underline #e0f970;
+          text-decoration: underline #e0f970;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container__burgerNav {
+    display: none;
+  }
+}
+/*# sourceMappingURL=BurgerNav.css.map */

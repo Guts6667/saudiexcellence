@@ -3,7 +3,6 @@ import './BurgerMenu.scss'
 
 const BurgerMenu = () =>{
     
-    
     function toggleBtn(){
         let navIcon = document.querySelector('.nav-icon');
         navIcon.classList.toggle('open')
