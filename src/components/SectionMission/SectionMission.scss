@@ -1,0 +1,36 @@
+$green: #e0f970;
+.container__mission {
+  height: 100vh;
+  width: auto;
+  background: url("../../assets/meteor.png");
+  background-color: rgba(0, 0, 0, 0.95);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  &-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .line {
+      height: 1px;
+      width: 7%;
+      background-color: $green;
+      margin-right: 20px;
+    }
+  }
+  &-subtitle {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    strong {
+      color: $green;
+    }
+  }
+}

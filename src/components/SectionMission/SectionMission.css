@@ -1,7 +1,7 @@
-.container__vision {
+.container__mission {
   height: 100vh;
   width: auto;
-  background: url("../../assets/vision-bg.png");
+  background: url("../../assets/meteor.png");
   background-color: rgba(0, 0, 0, 0.95);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,7 +19,7 @@
           justify-content: space-evenly;
 }
 
-.container__vision-title {
+.container__mission-title {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,39 +27,23 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-margin-after: 0;
-          margin-block-end: 0;
 }
 
-.container__vision-title h2 {
-  -webkit-margin-after: 0;
-          margin-block-end: 0;
-}
-
-.container__vision .line {
+.container__mission-title .line {
   height: 1px;
   width: 7%;
   background-color: #e0f970;
   margin-right: 20px;
 }
 
-.container__vision span {
-  font-weight: 500;
-  font-size: 12px;
-  color: #e0f970;
+.container__mission-subtitle {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
 }
 
-.container__vision .box-vision {
-  padding: 30px 0 30px 0;
-  margin: 0 7% 0 7%;
-  text-align: justify;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  row-gap: 30px;
+.container__mission-subtitle strong {
+  color: #e0f970;
 }
-/*# sourceMappingURL=SectionVision.css.map */
+/*# sourceMappingURL=SectionMission.css.map */

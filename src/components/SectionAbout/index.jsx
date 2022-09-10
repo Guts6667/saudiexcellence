@@ -4,8 +4,8 @@ import './SectionAbout.scss'
 const SectionAbout = () => {
 
     return(
-            <section className="section__about" id="about">
-                <div className="section__about-title">
+            <section className="container__about" id="about">
+                <div className="container__about-title">
                     <span className="line"></span>
                     <h2>About.</h2>
                 </div>

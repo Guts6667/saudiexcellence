@@ -1,0 +1,30 @@
+.box-text strong {
+  color: #e0f970;
+  height: 30%;
+}
+
+.box-text-left {
+  text-align: justify;
+  border-left: 1px solid #e0f970;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .box-text {
+    width: 60%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .box-text-left {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .box-text {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=BoxTextLeft.css.map */

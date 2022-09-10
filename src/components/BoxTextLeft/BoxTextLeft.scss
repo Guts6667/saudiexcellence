@@ -1,0 +1,33 @@
+$green: #e0f970;
+.box-text {
+  strong {
+    color: #e0f970;
+    height: 30%;
+  }
+  &-left {
+    text-align: justify;
+    border-left: 1px solid $green;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  // &-right {
+  //   border-right: 1px solid $green;
+  //   padding-right: 30px;
+  //   padding-left: 30px;
+  //   text-align: justify;
+  // }
+  @media only screen and (min-width: 768px) {
+    width: 60%;
+    margin-left: 7%;
+    margin-right: 7%;
+    // &-right {
+    //   align-self: flex-end;
+    // }
+    &-left {
+      align-self: flex-start;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    width: 50%;
+  }
+}

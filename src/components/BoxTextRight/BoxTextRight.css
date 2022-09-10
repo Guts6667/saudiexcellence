@@ -1,0 +1,30 @@
+.box-text strong {
+  color: #e0f970;
+  height: 30%;
+}
+
+.box-text-right {
+  border-right: 1px solid #e0f970;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 768px) {
+  .box-text {
+    width: 60%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .box-text-right {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .box-text {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=BoxTextRight.css.map */
