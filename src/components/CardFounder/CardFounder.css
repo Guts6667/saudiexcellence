@@ -1,0 +1,73 @@
+.cardFounder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 70%;
+  row-gap: 10px;
+  padding: 20px;
+}
+
+.cardFounder img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  width: 170px;
+  height: 170px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.cardFounder img .clickable {
+  cursor: pointer;
+}
+
+.cardFounder img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.cardFounder span {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #e0f970;
+}
+
+.cardFounder p {
+  overflow: auto;
+  max-height: 100px;
+  -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #000), to(transparent));
+  -webkit-mask: linear-gradient(180deg, #000 70%, transparent);
+          mask: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #000), to(transparent));
+          mask: linear-gradient(180deg, #000 70%, transparent);
+  margin-block: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .cardFounder {
+    width: 50%;
+  }
+  .cardFounder img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cardFounder {
+    width: 30%;
+  }
+  .cardFounder img {
+    width: 250px;
+    height: 250px;
+  }
+}
+/*# sourceMappingURL=CardFounder.css.map */

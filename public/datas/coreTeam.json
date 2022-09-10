@@ -1,0 +1,21 @@
+[
+    {
+        "name" : "",
+        "role" : "CTO",
+        "picture" : "../../assets/placeholder-cto.png",
+        "linkedin" : ""
+    },
+    {
+        "name" : "",
+        "role" : "COO",
+        "picture" : "../../assets/placeholder-coo.png",
+        "linkedin" : ""
+    },
+    {
+        "name" : "",
+        "role" : "CFO",
+        "picture" : "../../assets/placeholder-cfo.png",
+        "linkedin" : ""
+    }
+   
+]

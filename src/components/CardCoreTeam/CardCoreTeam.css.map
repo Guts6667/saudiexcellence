@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACZ,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB",
+    "sources": [
+        "CardCoreTeam.scss"
+    ],
+    "names": [],
+    "file": "CardCoreTeam.css"
+}

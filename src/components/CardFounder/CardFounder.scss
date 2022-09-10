@@ -1,0 +1,52 @@
+$green: #e0f970;
+.cardFounder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  row-gap: 10px;
+  padding: 20px;
+
+  img {
+    object-fit: cover;
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+
+    filter: grayscale(100%);
+    .clickable {
+      cursor: pointer;
+    }
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+  span {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: $green;
+  }
+
+  p {
+    overflow: auto;
+    max-height: 100px;
+    mask: linear-gradient(180deg, #000 70%, transparent);
+    margin-block: 0;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 50%;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    width: 30%;
+    img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+}

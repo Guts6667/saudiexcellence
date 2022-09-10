@@ -1,5 +1,6 @@
 $green: #e0f970;
 .container__header {
+  z-index: 5;
   padding-top: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -29,7 +30,7 @@ $green: #e0f970;
       transition: 0.2s ease-in-out;
       cursor: pointer;
       row-gap: 7px;
-      z-index: 4;
+      z-index: 6;
 
       span {
         height: 2px;

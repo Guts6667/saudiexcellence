@@ -1,0 +1,110 @@
+.container__team {
+  width: auto;
+  background-color: #131313;
+  padding: 30px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container__team-title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__team-title .line {
+  height: 1px;
+  width: 7%;
+  background-color: #e0f970;
+  margin-right: 2%;
+}
+
+.container__team-subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.container__team-subtitle strong {
+  color: #e0f970;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__team-subtitle {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 9%;
+  }
+}
+
+.container__founder {
+  width: auto;
+  background-color: #131313;
+  padding: 30px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 20px;
+}
+
+.container__founder-middleCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+.container__founder-middleCard article {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__founder {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-column-gap: 15px;
+            column-gap: 15px;
+  }
+}
+/*# sourceMappingURL=SectionTeam.css.map */

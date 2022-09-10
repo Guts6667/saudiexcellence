@@ -1,7 +1,7 @@
 .container__about {
   height: 100vh;
   width: auto;
-  background: url("../../assets/meteor.png");
+  background: url("/assets/meteor.png");
   background-color: rgba(0, 0, 0, 0.95);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -33,7 +33,7 @@
   height: 1px;
   width: 7%;
   background-color: #e0f970;
-  margin-right: 20px;
+  margin-right: 2%;
 }
 
 .container__about .box-about strong {

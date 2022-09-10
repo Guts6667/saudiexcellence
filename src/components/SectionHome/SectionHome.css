@@ -1,6 +1,6 @@
 .section__home {
   height: 100vh;
-  background: url("../../assets/desert.png");
+  background: url("/assets/desert.png");
   background-color: rgba(0, 0, 0, 0.95);
   background-repeat: no-repeat;
   background-attachment: fixed;
