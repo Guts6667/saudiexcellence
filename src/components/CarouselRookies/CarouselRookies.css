@@ -1,4 +1,4 @@
-.container__carouselInvestors {
+.container__carouselRookies {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,29 +10,29 @@
           align-items: center;
   -webkit-column-gap: 20px;
           column-gap: 20px;
+  height: 100vh;
 }
 
-.container__carouselInvestors img {
-  border-radius: 50%;
-  height: 30vh;
-  width: 30vh;
+.container__carouselRookies img {
+  height: 200px;
+  width: 200px;
   -o-object-fit: contain;
      object-fit: contain;
   background-color: #4948488c;
 }
 
-.container__carouselInvestors .chevron {
+.container__carouselRookies .chevron {
   color: #e0f970;
   cursor: pointer;
 }
 
 @media only screen and (min-width: 1024px) {
-  .container__carouselInvestors {
+  .container__carouselRookies {
     display: none;
   }
 }
 
-.container__carouselInvestors-xl {
+.container__carouselRookies-xl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,23 +47,22 @@
   row-gap: 20px;
 }
 
-.container__carouselInvestors-xl img {
-  border-radius: 50%;
-  display: block;
-  width: 40vh;
-  height: 40vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  padding: 10px;
+.container__carouselRookies-xl article {
+  width: 30%;
 }
 
-.container__carouselInvestors-xl .chevron {
+.container__carouselRookies-xl img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.container__carouselRookies-xl .chevron {
   color: #e0f970;
 }
 
 @media only screen and (max-width: 1024px) {
-  .container__carouselInvestors-xl {
+  .container__carouselRookies-xl {
     display: none;
   }
 }
-/*# sourceMappingURL=CarouselInvestors.css.map */
+/*# sourceMappingURL=CarouselRookies.css.map */

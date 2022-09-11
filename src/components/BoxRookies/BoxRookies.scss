@@ -1,0 +1,38 @@
+$green: #e0f970;
+.box-rookies {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  color: white;
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+  }
+  span {
+    position: relative;
+    top: -35px;
+    left: 15px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  h4 {
+    margin-block: 0;
+    color: $green;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: $green;
+    padding: 10px 20px;
+    border: 1px solid $green;
+    width: 25%;
+    border-radius: 30px;
+  }
+}

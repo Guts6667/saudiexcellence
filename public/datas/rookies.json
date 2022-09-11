@@ -1,0 +1,50 @@
+[
+    {
+        "name":"LivingPackets",
+        "country": "France 🇫🇷",
+        "industry": "Smart logistics",
+        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
+        "picture": "/assets/livingPackets.png",
+        "website":"https://livingpackets.com"
+    },
+    {
+        "name":"Entangle",
+        "country": "UK 🇬🇧",
+        "industry": "Defi",
+        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
+        "picture": "/assets/entangle.png",
+        "website":"https://entangle.fi"
+    },
+    {
+        "name":"DisruptionX",
+        "country": "UK 🇬🇧",
+        "industry": "Games",
+        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
+        "picture": "/assets/disruptionX.png",
+        "website":"https://disruptionx.io"
+    },
+    {
+        "name":"Edge Dynamics",
+        "country": "Netherlands 🇳🇱",
+        "industry": "IIoT Futur Sensors",
+        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
+        "picture": "/assets/placeholder-rookies.jpg",
+        "website":"https://www.edgedynamics.eu"
+    },
+    {
+        "name":"To be advise",
+        "country": "USA 🇺🇸",
+        "industry": "Robotics",
+        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
+        "picture": "/assets/placeholder-rookies.jpg",
+        "website":""
+    },
+    {
+        "name":"Spectre Solution",
+        "country": "Poland 🇵🇱",
+        "industry": "Drones",
+        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
+        "picture": "/assets/placeholder-rookies.jpg",
+        "website":"https://spectre.solutions"
+    }
+]

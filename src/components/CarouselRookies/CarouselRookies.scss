@@ -1,13 +1,13 @@
 $green: #e0f970;
-.container__carouselInvestors {
+.container__carouselRookies {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 20px;
+  height: 100vh;
   img {
-    border-radius: 50%;
-    height: 30vh;
-    width: 30vh;
+    height: 200px;
+    width: 200px;
     object-fit: contain;
     background-color: #4948488c;
   }
@@ -20,20 +20,18 @@ $green: #e0f970;
   }
 }
 
-.container__carouselInvestors-xl {
+.container__carouselRookies-xl {
   display: flex;
   flex-flow: wrap;
   align-items: center;
   justify-content: space-evenly;
 
   row-gap: 20px;
+  article {
+    width: 30%;
+  }
   img {
-    border-radius: 50%;
-    display: block;
-    width: 40vh;
-    height: 40vh;
-    object-fit: cover;
-    padding: 10px;
+    object-fit: contain;
   }
   .chevron {
     color: $green;

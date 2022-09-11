@@ -1,0 +1,53 @@
+.box-rookies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  color: white;
+}
+
+.box-rookies img {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box-rookies span {
+  position: relative;
+  top: -35px;
+  left: 15px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.box-rookies h4 {
+  margin-block: 0;
+  color: #e0f970;
+}
+
+.box-rookies p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.box-rookies a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  color: #e0f970;
+  padding: 10px 20px;
+  border: 1px solid #e0f970;
+  width: 25%;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=BoxRookies.css.map */

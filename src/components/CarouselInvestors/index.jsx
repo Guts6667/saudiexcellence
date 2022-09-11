@@ -8,7 +8,7 @@ import BoxInvestor from "../BoxInvestor";
 const CarouselInvestors = () => {
     let [index, setIndex] = useState(0)
     let [datasInvestors, setDatasInvestors] = useState([]);
-    // let [length, setLength] = useState(undefined);
+    let [length, setLength] = useState(undefined);
     useEffect(() => {
         fetch('/datas/investors.json')
         .then((res) => res.json())
@@ -17,7 +17,7 @@ const CarouselInvestors = () => {
         if(datasInvestors === '' || datasInvestors === null || datasInvestors === undefined){
             setDatasInvestors(false)
         }
-        // setLength(datasInvestors.length);
+        setLength(datasInvestors.length);
     }, [ ])
     
     const previousCard = () =>{
@@ -25,7 +25,7 @@ const CarouselInvestors = () => {
             setIndex(5);
         }
         else{
-            setIndex(index -1)
+            setIndex((index -=1))
         }
     }
     const nextCard = () =>{
@@ -33,7 +33,7 @@ const CarouselInvestors = () => {
             setIndex(0);
         }
         else{
-            setIndex(index +1)
+            setIndex((index +=1))
         }
     }
     return(
