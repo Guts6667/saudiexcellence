@@ -46,4 +46,11 @@
   color: #e0f970;
   margin-block: 0;
 }
+
+@media only screen and (min-width: 1024px) {
+  .container__contact-title h3 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
 /*# sourceMappingURL=SectionContact.css.map */

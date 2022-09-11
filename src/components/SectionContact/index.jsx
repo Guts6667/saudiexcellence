@@ -1,4 +1,5 @@
 import React from "react";
+import FormContact from "../FormContact";
 import './SectionContact.scss'
 
 const SectionContact = () => {
@@ -11,6 +12,7 @@ const SectionContact = () => {
                 <h3>Let’s Work together</h3>
                 </div>
             </div>
+            <FormContact />
         </section>
     )
 }

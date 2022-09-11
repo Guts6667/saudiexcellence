@@ -30,6 +30,10 @@ $green: #e0f970;
       font-size: 16px;
       color: $green;
       margin-block: 0;
+      @media only screen and (min-width: 1024px) {
+        font-weight: 700;
+        font-size: 30px;
+      }
     }
   }
 }
