@@ -1,34 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import './CardFounder.scss'
-import mokhliss from '../../assets/mokhliss.jpg'
-import abdullah from '../../assets/abdullah.jpg'
-import omar from '../../assets/omar.jpg'
 const CardFounder = (data) => {
-const {picture, name, text, linkedin} = data.data
-const [photo, setPhoto] = useState(null);
-useEffect(() => {
-    const profilPics = [mokhliss, abdullah, omar]
-    profilPics.forEach(pp => {
-        if(pp.includes(picture)){
-        setPhoto(pp) 
-
-    }
-} 
- )
-
-    
-} , [picture])
+const {picture, name, text, linkedin} = data.data;
 
     return(
         
         <article className="cardFounder">
             {linkedin ? (
                 <a href={linkedin}>
-                <img className="clickable" src={photo} alt={name} />
+                <img className="clickable" src={picture} alt={name} />
             </a>
             ) :
             (
-                <img src={photo} alt={name} />
+                <img src={picture} alt={name} />
             )}
             
             <span>{ name }</span>

@@ -1,5 +1,5 @@
 .cardCoreTeam {
-  width: 30%;
+  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7,5 +7,36 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.cardCoreTeam img {
+  width: 80%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.cardCoreTeam span {
+  width: 80%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .cardCoreTeam {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cardCoreTeam {
+    width: 30%;
+  }
 }
 /*# sourceMappingURL=CardCoreTeam.css.map */

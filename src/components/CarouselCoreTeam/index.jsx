@@ -2,45 +2,64 @@ import React, {useEffect, useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import './CarouselCoreTeam.scss';
-// import ctoPic from '../../assets/placeholder-cto.png';
-// import cooPic from '../../assets/placeholder-coo.png';
-// import cfoPic from '../../assets/placeholder-cfo.png';
 import CardCoreTeam from "../CardCoreTeam";
 function CarouselCoreTeam(){
     let [index, setIndex] = useState(0)
     const [datasCoreTeam, setDatasCoreTeam] = useState([]);
-
+    const [isDesktop, setIsDesktop] = useState(false);
     
+  
     useEffect(() => {
-
         fetch('/datas/coreTeam.json')
         .then((res) => res.json())
         .then((res) => setDatasCoreTeam(res))
         
     }, [])
-
-    const nextCard = () => {
-        if(index === datasCoreTeam.lenght -1){
-            setIndex(0)
-        }else{
-            setIndex(index += 1)
-        }
-    }
-    const previousCard = () => {
+    const previousCard = () =>{
         if(index === 0){
-            setIndex(datasCoreTeam.length -1)
-        }else{
-            setIndex(index += 1)
+            setIndex(2);
+        }
+        else{
+            setIndex(index -1)
         }
     }
+    const nextCard = () =>{
+        if(index === 2){
+            setIndex(0);
+        }
+        else{
+            setIndex(index +1)
+        }
+    }
+   
+     window.addEventListener('resize', (e) => {
+        e.preventDefault()
+        if(window.visualViewport.width >= 1024){
+            setIsDesktop(true)
+        }else{setIsDesktop(false)}
+     })
        
     return(
-    <section className="container__carouselCoreTeam">
-       <FontAwesomeIcon icon= {faChevronLeft} size={'2x'} className='chevron-left chevron' onClick={previousCard}  />
-       <CardCoreTeam datas = {datasCoreTeam[index]} />
-       <FontAwesomeIcon icon= {faChevronRight} size={'2x'} className='chevron-left chevron' onClick={nextCard}  />
-    </section>
-    )
+        datasCoreTeam && (
+        <section >
+            <div className="container__carouselCoreTeam">
+            <FontAwesomeIcon icon= {faChevronLeft} size={'2x'} className='chevron' onClick={previousCard}  />
+            <CardCoreTeam datas={datasCoreTeam[index]} />
+            <FontAwesomeIcon icon= {faChevronRight} size={'2x'} className='chevron' onClick={nextCard} />
+            </div>
+            <div className="container__carouselCoreTeam-xl">
+                {datasCoreTeam.map(data => (
+                    <CardCoreTeam datas = {data} key={`${data.role}-${datasCoreTeam.indexOf(data)}`}/>
+                ))}
+            </div>
+         </section>
+        )
+            
+        
+        
+        )
+        
+    
 }
 
 export default CarouselCoreTeam;

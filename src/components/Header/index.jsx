@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Header.scss'
-import logo from '../../assets/Logo_SEC.png'
+// import logo from '../../assets/Logo_SEC.png'
 import BurgerNav from "../BurgerNav";
 
 const Header = () =>{
@@ -27,7 +27,7 @@ const Header = () =>{
             </div>  
             </div>   
         <div className="container__header-title">
-            <img src={logo} alt="Saudi Excellence Co." />
+            <img src='/assets/Logo_SEC.png' alt="Saudi Excellence Co." />
             <h1>Saudi Excellence Co.</h1>
         </div>
         <nav className="container__header-nav">

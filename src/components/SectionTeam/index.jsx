@@ -6,10 +6,14 @@ import './SectionTeam.scss'
 const SectionTeam = () => {
     const [datasFounders, setDatasFounders] = useState([]);
 useEffect(() => {
+    
     fetch('/datas/founder.json')
-    .then((res) => res.json())
-    .then((res) => setDatasFounders(res))  
+    .then(res => res.json())
+    .then(res => setDatasFounders(res));
+
 }, [])
+
+
     return(
         <section className="container__team">
             <div className="container__team-title">
@@ -34,7 +38,7 @@ useEffect(() => {
                 </h3>
             </div>
             <div className="container__coreTeam">
-                {/* <CarouselCoreTeam /> */}
+                <CarouselCoreTeam />
             </div>
         </section>
     )

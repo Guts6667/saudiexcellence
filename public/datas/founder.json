@@ -2,19 +2,19 @@
     {
         "name" : "Cheikh Abdullah Zaid Al-Maleihi",
         "text" : "“Saudi Arabia is proud to be today’s top 5 Ai majors players in the world and at the horizon of 2030 our ambition is limitless. At Saudi Excellence, we are devoted to attracting the best talents from all over the world.”",
-        "picture" : "abdullah",
+        "picture" : "/assets/abdullah.jpg",
         "linkedin" : "https://www.linkedin.com/in/abdullah-zaid-al-meleihi-36ab0938/?originalSubdomain=sa"
     },
     {
         "name" : "Mokhliss Barriol",
         "text" : "“As techpreneur I know the importance to be backed with AAA team, knowing we have a solid net on beneath, we became impetuous and fearless, pushing to the edge our capability to perform out of the limit.”",
-        "picture" : "mokhliss",
+        "picture" : "/assets/mokhliss.jpg",
         "linkedin" : "https://www.linkedin.com/in/mokhliss-barriol-7b326b52/"
     },
     {
         "name" : "Omar Mian",
         "text" : "“Saudi Excellence is a unique opportunity on the most dynamic market in the world, Monetary International Funds has spot Saudi Arabia as top 3 country by GDP in 2024-2025, making us a major playor in the region. We want to take our part and welcome most innovaties talents team to write a piece of this success story.”",
-        "picture" : "omar"
+        "picture" : "/assets/omar.jpg"
     }
    
 ]

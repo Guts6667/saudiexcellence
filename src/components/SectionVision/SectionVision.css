@@ -1,7 +1,7 @@
 .container__vision {
   height: 100vh;
   width: auto;
-  background: url("../../assets/vision-bg.png");
+  background: url("../../../public/assets/vision-bg.png");
   background-color: rgba(0, 0, 0, 0.95);
   background-repeat: no-repeat;
   background-attachment: fixed;
