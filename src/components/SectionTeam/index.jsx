@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import CardFounder from "../CardFounder";
-import CarouselCoreTeam from "../CarouselCoreTeam";
 import './SectionTeam.scss'
 
 const SectionTeam = () => {
@@ -32,14 +31,7 @@ useEffect(() => {
                     <CardFounder data = {data} key={`${data.name}-${datasFounders.indexOf(data)}`}  />)
                 })}
             </div>
-            <div className="container__team-subtitle">
-                <h3>
-                Core Team.<br/>
-                </h3>
-            </div>
-            <div className="container__coreTeam">
-                <CarouselCoreTeam />
-            </div>
+            
         </section>
     )
 }

@@ -1,0 +1,46 @@
+.container__coreTeam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url("../../../public/assets/meteor.png");
+  background-color: rgba(0, 0, 0, 0.95);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 30px 20px;
+}
+
+.container__coreTeam-subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  width: 70%;
+}
+
+.container__coreTeam-subtitle strong {
+  color: #e0f970;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__coreTeam-subtitle {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 9%;
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=SectionCoreTeam.css.map */

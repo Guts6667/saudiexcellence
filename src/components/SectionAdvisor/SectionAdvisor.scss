@@ -1,0 +1,52 @@
+.container__advisor {
+  background: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 30px 20px;
+  row-gap: 20px;
+
+  &-title {
+    display: flex;
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+    width: 70%;
+    margin-left: 9%;
+    @media only screen and (min-width: 1024px) {
+      align-self: flex-start;
+    }
+  }
+  &-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media only screen and (min-width: 1024px) {
+      flex-flow: wrap;
+      justify-content: center;
+      row-gap: 20px;
+      column-gap: 20px;
+    }
+  }
+}
+
+.advisor-box {
+  span {
+    position: relative;
+    top: -35px;
+    left: 35px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  width: 70%;
+  img {
+    width: 100%;
+  }
+  @media only screen and (min-width: 1024px) {
+    width: 45%;
+  }
+}

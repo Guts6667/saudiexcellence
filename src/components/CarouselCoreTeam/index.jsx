@@ -6,9 +6,7 @@ import CardCoreTeam from "../CardCoreTeam";
 function CarouselCoreTeam(){
     let [index, setIndex] = useState(0)
     const [datasCoreTeam, setDatasCoreTeam] = useState([]);
-    const [isDesktop, setIsDesktop] = useState(false);
     
-  
     useEffect(() => {
         fetch('/datas/coreTeam.json')
         .then((res) => res.json())
@@ -32,13 +30,7 @@ function CarouselCoreTeam(){
         }
     }
    
-     window.addEventListener('resize', (e) => {
-        e.preventDefault()
-        if(window.visualViewport.width >= 1024){
-            setIsDesktop(true)
-        }else{setIsDesktop(false)}
-     })
-       
+
     return(
         datasCoreTeam && (
         <section >

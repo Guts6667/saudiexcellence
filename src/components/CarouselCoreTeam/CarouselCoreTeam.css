@@ -12,6 +12,7 @@
 
 .container__carouselCoreTeam .chevron {
   color: #e0f970;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 1024px) {

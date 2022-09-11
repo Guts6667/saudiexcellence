@@ -4,6 +4,8 @@ import SectionAbout from "../../components/SectionAbout";
 import SectionVision from "../../components/SectionVision";
 import SectionMission from "../../components/SectionMission";
 import SectionTeam from "../../components/SectionTeam";
+import SectionCoreTeam from "../../components/SectionCoreTeam";
+import SectionAdvisor from "../../components/SectionAdvisor";
 const Home = () => {
 
     return(
@@ -13,6 +15,8 @@ const Home = () => {
             <SectionVision />
             <SectionMission />
             <SectionTeam />
+            <SectionCoreTeam />
+            <SectionAdvisor />
         </div>
     )
 }
