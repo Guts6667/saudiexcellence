@@ -6,6 +6,7 @@ import SectionMission from "../../components/SectionMission";
 import SectionTeam from "../../components/SectionTeam";
 import SectionCoreTeam from "../../components/SectionCoreTeam";
 import SectionAdvisor from "../../components/SectionAdvisor";
+import SectionInvestors from "../../components/SectionInvestors";
 const Home = () => {
 
     return(
@@ -17,6 +18,7 @@ const Home = () => {
             <SectionTeam />
             <SectionCoreTeam />
             <SectionAdvisor />
+            <SectionInvestors />
         </div>
     )
 }

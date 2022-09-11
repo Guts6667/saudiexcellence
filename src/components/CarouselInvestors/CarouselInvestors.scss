@@ -1,0 +1,43 @@
+$green: #e0f970;
+.container__carouselInvestors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    background-color: #4948488c;
+  }
+  .chevron {
+    color: $green;
+    cursor: pointer;
+  }
+  @media only screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.container__carouselInvestors-xl {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+  row-gap: 20px;
+  img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+    background-color: #4948488c;
+  }
+  .chevron {
+    color: $green;
+  }
+  @media only screen and (max-width: 1024px) {
+    display: none;
+  }
+}

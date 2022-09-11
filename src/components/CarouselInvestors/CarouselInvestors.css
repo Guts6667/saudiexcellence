@@ -1,0 +1,68 @@
+.container__carouselInvestors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.container__carouselInvestors img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: #4948488c;
+}
+
+.container__carouselInvestors .chevron {
+  color: #e0f970;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__carouselInvestors {
+    display: none;
+  }
+}
+
+.container__carouselInvestors-xl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  row-gap: 20px;
+}
+
+.container__carouselInvestors-xl img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: #4948488c;
+}
+
+.container__carouselInvestors-xl .chevron {
+  color: #e0f970;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container__carouselInvestors-xl {
+    display: none;
+  }
+}
+/*# sourceMappingURL=CarouselInvestors.css.map */

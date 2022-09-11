@@ -1,0 +1,55 @@
+.container__investors {
+  background-color: #131313;
+  width: auto;
+  padding: 30px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  row-gap: 20px;
+}
+
+.container__investors-title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__investors-title h2 {
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+.container__investors-title span {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__investors-title span {
+    font-weight: 400;
+    font-size: 25px;
+  }
+}
+
+.container__investors-title .line {
+  height: 1px;
+  width: 7%;
+  background-color: #e0f970;
+  margin-right: 2%;
+}
+/*# sourceMappingURL=SectionInvestors.css.map */
