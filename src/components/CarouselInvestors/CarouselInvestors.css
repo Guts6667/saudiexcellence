@@ -50,8 +50,8 @@
 .container__carouselInvestors-xl img {
   border-radius: 50%;
   display: block;
-  width: 40vh;
-  height: 40vh;
+  width: 30vh;
+  height: 30vh;
   -o-object-fit: cover;
      object-fit: cover;
   padding: 10px;

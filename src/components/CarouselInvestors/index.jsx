@@ -18,7 +18,7 @@ const CarouselInvestors = () => {
             setDatasInvestors(false)
         }
         setLength(datasInvestors.length);
-    }, [ ])
+    }, [])
     
     const previousCard = () =>{
         if(index === 0){

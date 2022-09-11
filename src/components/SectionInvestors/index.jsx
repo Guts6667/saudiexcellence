@@ -7,7 +7,7 @@ import './SectionInvestors.scss'
 const SectionInvestors = () => {
     return(
 
-        <section className="container__investors">
+        <section className="container__investors" id="investors">
             <div className="container__investors-title">
                     <span className="line"></span>
                     <div>

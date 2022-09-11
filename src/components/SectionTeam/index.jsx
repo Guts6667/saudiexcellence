@@ -14,7 +14,7 @@ useEffect(() => {
 
 
     return(
-        <section className="container__team">
+        <section className="container__team" id="team">
             <div className="container__team-title">
                 <span className="line"></span>
                 <h2>Team</h2>

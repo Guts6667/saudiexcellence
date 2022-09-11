@@ -4,7 +4,6 @@ $green: #e0f970;
   justify-content: center;
   align-items: center;
   column-gap: 20px;
-  height: 100vh;
   img {
     height: 200px;
     width: 200px;
@@ -14,6 +13,8 @@ $green: #e0f970;
   .chevron {
     color: $green;
     cursor: pointer;
+    top: -100px;
+    position: relative;
   }
   @media only screen and (min-width: 1024px) {
     display: none;
@@ -33,9 +34,7 @@ $green: #e0f970;
   img {
     object-fit: contain;
   }
-  .chevron {
-    color: $green;
-  }
+
   @media only screen and (max-width: 1024px) {
     display: none;
   }

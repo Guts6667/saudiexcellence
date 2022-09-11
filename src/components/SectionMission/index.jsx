@@ -21,7 +21,7 @@ const SectionMission = () => {
     
 
     return(
-        <section className="container__mission">
+        <section className="container__mission" id="mission">
             <div className="container__mission-title">
                 <span className="line"></span>
                 <h2>Our Mission.</h2>

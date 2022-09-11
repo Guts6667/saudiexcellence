@@ -10,7 +10,6 @@
           align-items: center;
   -webkit-column-gap: 20px;
           column-gap: 20px;
-  height: 100vh;
 }
 
 .container__carouselRookies img {
@@ -24,6 +23,8 @@
 .container__carouselRookies .chevron {
   color: #e0f970;
   cursor: pointer;
+  top: -100px;
+  position: relative;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -54,10 +55,6 @@
 .container__carouselRookies-xl img {
   -o-object-fit: contain;
      object-fit: contain;
-}
-
-.container__carouselRookies-xl .chevron {
-  color: #e0f970;
 }
 
 @media only screen and (max-width: 1024px) {
