@@ -19,13 +19,12 @@ const CarouselRookies = () => {
             setDatasRookies(false)
         }
         
-        
     }, [])
     
     const previousCard = () =>{
         setLength(datasRookies.length);
         if(index === 0){
-            setIndex(5);
+            setIndex(7);
             
         }
         else{
@@ -34,7 +33,7 @@ const CarouselRookies = () => {
         }
     }
     const nextCard = () =>{
-        if(index === 5){
+        if(index === 7){
             setIndex(0);
         }
         else{

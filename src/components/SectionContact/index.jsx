@@ -1,7 +1,7 @@
 import React from "react";
 import FormContact from "../FormContact";
 import './SectionContact.scss'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon, } from "@fortawesome/react-fontawesome";
 
 
 const SectionContact = () => {
@@ -15,9 +15,8 @@ const SectionContact = () => {
                 </div>
             </div>
             <FormContact />
-            <div className="container__contact-network">
-            <FontAwesomeIcon icon="fa-brands fa-facebook" />
-            </div>
+            {/* <div className="container__contact-network">
+            </div> */}
         </section>
     )
 }
