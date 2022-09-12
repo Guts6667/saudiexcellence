@@ -84,5 +84,10 @@
   .advisor-box {
     width: 45%;
   }
+  .advisor-box span {
+    top: -60px;
+    font-weight: 700;
+    font-size: 30px;
+  }
 }
 /*# sourceMappingURL=SectionAdvisor.css.map */

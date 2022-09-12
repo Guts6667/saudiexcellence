@@ -12,6 +12,12 @@ $green: #e0f970;
     width: 100%;
     display: flex;
     align-items: center;
+    .line {
+      height: 1px;
+      width: 7%;
+      background-color: $green;
+      margin-right: 2%;
+    }
     h2 {
       margin-block-end: 0;
     }
@@ -26,12 +32,6 @@ $green: #e0f970;
         font-weight: 400;
         font-size: 25px;
       }
-    }
-    .line {
-      height: 1px;
-      width: 7%;
-      background-color: $green;
-      margin-right: 2%;
     }
   }
 }

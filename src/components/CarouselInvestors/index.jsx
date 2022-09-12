@@ -22,14 +22,14 @@ const CarouselInvestors = () => {
     
     const previousCard = () =>{
         if(index === 0){
-            setIndex(5);
+            setIndex(2);
         }
         else{
             setIndex((index -=1))
         }
     }
     const nextCard = () =>{
-        if(index === 5){
+        if(index === 2){
             setIndex(0);
         }
         else{

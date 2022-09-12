@@ -36,4 +36,11 @@ $green: #e0f970;
       }
     }
   }
+  &-network {
+    z-index: 2;
+    position: relative;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -51,4 +51,29 @@ form .submit-btn {
   width: 40%;
   background-color: transparent;
 }
+
+.form-thanks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(45, 45, 45, 0.6);
+  width: 90%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+  border: 2px solid #e0f970;
+  font-size: 24px !important;
+  font-weight: 700;
+  color: #e0f970;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .form-thanks {
+    width: 50%;
+  }
+}
 /*# sourceMappingURL=FormContact.css.map */

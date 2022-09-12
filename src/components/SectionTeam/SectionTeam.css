@@ -79,6 +79,14 @@
   row-gap: 20px;
 }
 
+@media only screen and (min-width: 1024px) {
+  .container__founder {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
 .container__founder-middleCard {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,5 +122,16 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+@media only screen and (min-width: 1024px) {
+  h3 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  h3 strong {
+    font-weight: 500;
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=SectionTeam.css.map */

@@ -12,10 +12,16 @@
 
 .box-rookies img {
   width: 100%;
-  height: auto;
+  height: 230px;
   max-height: 350px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .box-rookies img {
+    height: 250px;
+  }
 }
 
 .box-rookies span {
@@ -24,6 +30,7 @@
   left: 15px;
   font-weight: 700;
   font-size: 16px;
+  text-shadow: 0px 0px 2px #406f0af0;
 }
 
 .box-rookies h4 {
@@ -34,6 +41,8 @@
 .box-rookies p {
   font-weight: 400;
   font-size: 14px;
+  height: 100px;
+  overflow: auto;
 }
 
 .box-rookies a {
@@ -47,7 +56,13 @@
   color: #e0f970;
   padding: 10px 20px;
   border: 1px solid #e0f970;
-  width: 25%;
+  width: 40%;
   border-radius: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .box-rookies a {
+    width: 25%;
+  }
 }
 /*# sourceMappingURL=BoxRookies.css.map */

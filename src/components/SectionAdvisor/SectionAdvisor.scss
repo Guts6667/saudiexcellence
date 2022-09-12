@@ -48,5 +48,10 @@
   }
   @media only screen and (min-width: 1024px) {
     width: 45%;
+    span {
+      top: -60px;
+      font-weight: 700;
+      font-size: 30px;
+    }
   }
 }

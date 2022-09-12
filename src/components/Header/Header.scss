@@ -3,7 +3,7 @@ $green: #e0f970;
   z-index: 5;
   padding-top: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -16,7 +16,6 @@ $green: #e0f970;
     justify-content: space-around;
   }
   &-burger {
-    width: 20%;
     z-index: 7;
     @media only screen and (min-width: 1200px) {
       display: none;
@@ -63,8 +62,6 @@ $green: #e0f970;
     }
   }
   &-btn {
-    width: 20%;
-    text-align: end;
     a {
       font-weight: 700;
       font-size: 10px;

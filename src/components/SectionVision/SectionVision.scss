@@ -41,4 +41,14 @@ $green: #e0f970;
     flex-direction: column;
     row-gap: 30px;
   }
+  @media only screen and (min-width: 1024px) {
+    span {
+      font-weight: 500;
+      font-size: 20px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 22px;
+    }
+  }
 }

@@ -6,9 +6,12 @@ $green: #e0f970;
   color: white;
   img {
     width: 100%;
-    height: auto;
+    height: 230px;
     max-height: 350px;
     object-fit: cover;
+    @media only screen and (min-width: 768px) {
+      height: 250px;
+    }
   }
   span {
     position: relative;
@@ -16,6 +19,7 @@ $green: #e0f970;
     left: 15px;
     font-weight: 700;
     font-size: 16px;
+    text-shadow: 0px 0px 2px #406f0af0;
   }
   h4 {
     margin-block: 0;
@@ -24,6 +28,8 @@ $green: #e0f970;
   p {
     font-weight: 400;
     font-size: 14px;
+    height: 100px;
+    overflow: auto;
   }
   a {
     display: flex;
@@ -32,7 +38,10 @@ $green: #e0f970;
     color: $green;
     padding: 10px 20px;
     border: 1px solid $green;
-    width: 25%;
+    width: 40%;
     border-radius: 30px;
+    @media only screen and (min-width: 768px) {
+      width: 25%;
+    }
   }
 }

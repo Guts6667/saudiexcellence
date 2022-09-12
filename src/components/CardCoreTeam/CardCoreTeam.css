@@ -38,5 +38,9 @@
   .cardCoreTeam {
     width: 30%;
   }
+  .cardCoreTeam span {
+    font-weight: 700;
+    font-size: 30px;
+  }
 }
 /*# sourceMappingURL=CardCoreTeam.css.map */

@@ -1,4 +1,5 @@
 $green: #e0f970;
+
 form {
   display: flex;
   flex-direction: column;
@@ -37,5 +38,22 @@ form {
     align-self: flex-end;
     width: 40%;
     background-color: transparent;
+  }
+}
+.form-thanks {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(45, 45, 45, 0.6);
+  width: 90%;
+  align-self: center;
+  text-align: center;
+  border: 2px solid $green;
+  //   border-radius: 50px;
+  font-size: 24px !important;
+  font-weight: 700;
+  color: $green;
+  padding: 10px;
+  @media only screen and (min-width: 1024px) {
+    width: 50%;
   }
 }

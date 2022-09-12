@@ -25,6 +25,13 @@
           align-items: center;
 }
 
+.container__investors-title .line {
+  height: 1px;
+  width: 7%;
+  background-color: #e0f970;
+  margin-right: 2%;
+}
+
 .container__investors-title h2 {
   -webkit-margin-after: 0;
           margin-block-end: 0;
@@ -44,12 +51,5 @@
     font-weight: 400;
     font-size: 25px;
   }
-}
-
-.container__investors-title .line {
-  height: 1px;
-  width: 7%;
-  background-color: #e0f970;
-  margin-right: 2%;
 }
 /*# sourceMappingURL=SectionInvestors.css.map */

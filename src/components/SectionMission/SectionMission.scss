@@ -1,6 +1,5 @@
 $green: #e0f970;
 .container__mission {
-  height: 100vh;
   width: auto;
   background: url("../../../public/assets/bg-mission.png");
   background-color: rgba(0, 0, 0, 0.95);
@@ -31,6 +30,16 @@ $green: #e0f970;
     font-size: 20px;
     strong {
       color: $green;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    p {
+      font-weight: 400;
+      font-size: 22px;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 40px;
     }
   }
 }

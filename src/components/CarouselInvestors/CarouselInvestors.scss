@@ -8,7 +8,7 @@ $green: #e0f970;
     border-radius: 50%;
     height: 30vh;
     width: 30vh;
-    object-fit: contain;
+    object-fit: cover;
     background-color: #4948488c;
   }
   .chevron {
@@ -30,8 +30,8 @@ $green: #e0f970;
   img {
     border-radius: 50%;
     display: block;
-    width: 30vh;
-    height: 30vh;
+    width: 35vh;
+    height: 35vh;
     object-fit: cover;
     padding: 10px;
   }
@@ -40,5 +40,16 @@ $green: #e0f970;
   }
   @media only screen and (max-width: 1024px) {
     display: none;
+  }
+}
+.box-investor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  span {
+    margin-top: 10px;
+    color: $green;
+    font-weight: 700;
+    font-size: 16px;
   }
 }

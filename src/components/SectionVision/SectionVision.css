@@ -62,4 +62,15 @@
           flex-direction: column;
   row-gap: 30px;
 }
+
+@media only screen and (min-width: 1024px) {
+  .container__vision span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .container__vision p {
+    font-weight: 400;
+    font-size: 22px;
+  }
+}
 /*# sourceMappingURL=SectionVision.css.map */

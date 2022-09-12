@@ -2,8 +2,8 @@
     {
         "name":"LivingPackets",
         "country": "France 🇫🇷",
-        "industry": "Smart logistics",
-        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
+        "industry": "Ai logistics",
+        "description" : "LivingPackets technology prevents problems before they happen. It's protective, preventive and customizable. Integrated sensors allow you to know at any time where and in what state your package is.",
         "picture": "/assets/livingPackets.png",
         "website":"https://livingpackets.com"
     },
@@ -11,40 +11,56 @@
         "name":"Entangle",
         "country": "UK 🇬🇧",
         "industry": "Defi",
-        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
-        "picture": "/assets/entangle.png",
+        "description" : "Entangle consists of a purpose-built blockchain interoperability protocol and Cross-Chain DApps utilising synthetic derivatives for liquidity provision and rewards. Synthetic-LP Vaults is the first innovative decentralised application built on Entangle. Through synthetic replications, users can gain exposure to Cross-Chain LP yields including; Avax, Near, Fantom, Cosmos and Ethereum networks from their native wallets. Composed of bespoke tooling built on secure foundations, the stage is set for creative liquidity use cases for all-ecosystem participants including Users, Layer 1 & 2 Blockchains, DEXes, Developers & Yield Oriented Protocols.",
+        "picture": "/assets/entangle.jpeg",
         "website":"https://entangle.fi"
     },
     {
         "name":"DisruptionX",
         "country": "UK 🇬🇧",
-        "industry": "Games",
-        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
-        "picture": "/assets/disruptionX.png",
+        "industry": "Ai Games",
+        "description" : "DisruptionX connects Blockchain, Gaming, and AI. Game creators leverage our powerful SDK to instantly access a community of gamers and integrated NFT Marketplace.",
+        "picture": "/assets/disruptionX.jpg",
         "website":"https://disruptionx.io"
     },
     {
         "name":"Edge Dynamics",
         "country": "Netherlands 🇳🇱",
         "industry": "IIoT Futur Sensors",
-        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
-        "picture": "/assets/placeholder-rookies.jpg",
+        "description" : "Edge Dynamics develops and implements IOT solutions for the industrial sector using LoRaWan wireless technology. We envision a future where wireless IOT devices such as temperature, vibration and pressure sensors will be widely used to avoid expensive installation cost for non-critical applications that otherwise would be difficult to justify. Data points can be used to monitor the condition of equipment at all time to detect changes that can result in unexpected equipment failures.",
+        "picture": "/assets/edgeDynamics.jpeg",
         "website":"https://www.edgedynamics.eu"
     },
     {
-        "name":"To be advise",
+        "name":"Nala Robotics",
         "country": "USA 🇺🇸",
-        "industry": "Robotics",
-        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
-        "picture": "/assets/placeholder-rookies.jpg",
-        "website":""
+        "industry": "Ai Robotics",
+        "description" : "We’re a veteran team of hands-on operators with deep executive experience running successful businesses in technology and culinary industries.",
+        "picture": "/assets/nalarobotics.png",
+        "website":"https://nalarobotics.com/"
     },
     {
         "name":"Spectre Solution",
         "country": "Poland 🇵🇱",
-        "industry": "Drones",
-        "description" : "Proinde die funestis interrogation ibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset,  quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci,",
-        "picture": "/assets/placeholder-rookies.jpg",
+        "industry": "Ai Drones",
+        "description" : "Spectre-1 allows to take up to 3kg of medical supplies and safely deliver them from hospital to medical laboratory. Our solutions consists of UAV with big enough cargo bay (45 litres) and set of procedures allowing medical services to safely deliver medical samples to laboratory in efficient way. Spectre-1 solution dedicated to monitoring long infrastructure such as gas pipelines, oil pipelines, borders and road infrastructure. The solution for infrastructure monitoring. The Spectre-1 solution is perfect for monitoring over a large area. Thanks to the unique structure of the VTOL, the solution combines the features of a fixed wing and a multi-rotor. The solution allows you to patrol over long distances without the need to invest in additional infrastructure.",
+        "picture": "/assets/spectreSolutions.png",
         "website":"https://spectre.solutions"
+    },
+    {
+        "name":"NUVO",
+        "country": "USA 🇺🇸",
+        "industry": "Ai Healthcare",
+        "description" : "Nuvo was founded to address the very intimate challenges parents face throughout the various stages of pregnancy. Oren Oz, CEO and inventor of INVU, realized from his wife’s personal experience that pregnancy care was in need of improvement. He believed that expectant parents would benefit from more accurate, reliable and real-time data to reduce worry and stress as well as improve pregnancy outcomes. INVU enables remote pregnancy management so that physicians can monitor and consult women as needed in the comfort of their own environments, no matter where they are. With INVU, Moms-to-be and their loved ones can share their data and rest assured their care is the best possible.",
+        "picture": "/assets/nuvo.png",
+        "website":"https://www.nuvocares.com/"
+    },
+    {
+        "name":"XOLTAR",
+        "country": "USA 🇺🇸",
+        "industry": "Ai Healthcare",
+        "description" : "XOLTAR revolutionizes remote patient digital interaction through an engaging live video chat between the patient and an AI agent with a human touch. XOLTAR’s unique technology combines Machine Learning algorithms together with Behavioral Science, helping patients remove barriers throughout the treatment journey.",
+        "picture": "/assets/xoltar.png",
+        "website":"https://xoltar.com/"
     }
 ]

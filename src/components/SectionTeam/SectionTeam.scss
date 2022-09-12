@@ -45,6 +45,9 @@ $green: #e0f970;
   justify-content: space-evenly;
   align-items: center;
   row-gap: 20px;
+  @media only screen and (min-width: 1024px) {
+    align-items: baseline;
+  }
 
   &-middleCard {
     display: flex;
@@ -66,4 +69,14 @@ $green: #e0f970;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+@media only screen and (min-width: 1024px) {
+  h3 {
+    font-weight: 700;
+    font-size: 35px;
+    strong {
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
 }

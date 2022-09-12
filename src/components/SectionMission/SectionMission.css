@@ -1,5 +1,4 @@
 .container__mission {
-  height: 100vh;
   width: auto;
   background: url("../../../public/assets/bg-mission.png");
   background-color: rgba(0, 0, 0, 0.95);
@@ -45,5 +44,16 @@
 
 .container__mission-subtitle strong {
   color: #e0f970;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__mission p {
+    font-weight: 400;
+    font-size: 22px;
+  }
+  .container__mission h3 {
+    font-weight: 700;
+    font-size: 40px;
+  }
 }
 /*# sourceMappingURL=SectionMission.css.map */
