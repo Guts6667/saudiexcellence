@@ -16,9 +16,8 @@
   border-radius: 50%;
   height: 30vh;
   width: 30vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-color: #4948488c;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .container__carouselInvestors .chevron {
@@ -52,8 +51,8 @@
   display: block;
   width: 35vh;
   height: 35vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   padding: 10px;
 }
 

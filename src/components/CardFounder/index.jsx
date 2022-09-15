@@ -1,7 +1,7 @@
 import React from "react";
 import './CardFounder.scss'
 const CardFounder = (data) => {
-const {picture, name, text, linkedin} = data.data;
+const {picture, name, text, linkedin, role} = data.data;
 
     return(
         
@@ -15,7 +15,7 @@ const {picture, name, text, linkedin} = data.data;
                 <img src={picture} alt={name} />
             )}
             
-            <span>{ name }</span>
+            <span>{`${name}, ${role}`}</span>
             <p>{ text }</p>
         </article>
     )

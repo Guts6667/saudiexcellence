@@ -4,7 +4,7 @@
         "country": "France 🇫🇷",
         "industry": "Ai logistics",
         "description" : "LivingPackets technology prevents problems before they happen. It's protective, preventive and customizable. Integrated sensors allow you to know at any time where and in what state your package is.",
-        "picture": "/assets/livingPackets.png",
+        "picture": "/assets/livingpackets.svg",
         "website":"https://livingpackets.com"
     },
     {
@@ -12,7 +12,7 @@
         "country": "UK 🇬🇧",
         "industry": "Defi",
         "description" : "Entangle consists of a purpose-built blockchain interoperability protocol and Cross-Chain DApps utilising synthetic derivatives for liquidity provision and rewards. Synthetic-LP Vaults is the first innovative decentralised application built on Entangle. Through synthetic replications, users can gain exposure to Cross-Chain LP yields including; Avax, Near, Fantom, Cosmos and Ethereum networks from their native wallets. Composed of bespoke tooling built on secure foundations, the stage is set for creative liquidity use cases for all-ecosystem participants including Users, Layer 1 & 2 Blockchains, DEXes, Developers & Yield Oriented Protocols.",
-        "picture": "/assets/entangle.jpeg",
+        "picture": "/assets/entangle.png",
         "website":"https://entangle.fi"
     },
     {
@@ -20,7 +20,7 @@
         "country": "UK 🇬🇧",
         "industry": "Ai Games",
         "description" : "DisruptionX connects Blockchain, Gaming, and AI. Game creators leverage our powerful SDK to instantly access a community of gamers and integrated NFT Marketplace.",
-        "picture": "/assets/disruptionX.jpg",
+        "picture": "/assets/disruptionX.svg",
         "website":"https://disruptionx.io"
     },
     {
@@ -28,7 +28,7 @@
         "country": "Netherlands 🇳🇱",
         "industry": "IIoT Futur Sensors",
         "description" : "Edge Dynamics develops and implements IOT solutions for the industrial sector using LoRaWan wireless technology. We envision a future where wireless IOT devices such as temperature, vibration and pressure sensors will be widely used to avoid expensive installation cost for non-critical applications that otherwise would be difficult to justify. Data points can be used to monitor the condition of equipment at all time to detect changes that can result in unexpected equipment failures.",
-        "picture": "/assets/edgeDynamics.jpeg",
+        "picture": "/assets/edgeDynamics.png",
         "website":"https://www.edgedynamics.eu"
     },
     {
@@ -36,7 +36,7 @@
         "country": "USA 🇺🇸",
         "industry": "Ai Robotics",
         "description" : "We’re a veteran team of hands-on operators with deep executive experience running successful businesses in technology and culinary industries.",
-        "picture": "/assets/nalarobotics.png",
+        "picture": "/assets/nala.png",
         "website":"https://nalarobotics.com/"
     },
     {
@@ -44,7 +44,7 @@
         "country": "Poland 🇵🇱",
         "industry": "Ai Drones",
         "description" : "Spectre-1 allows to take up to 3kg of medical supplies and safely deliver them from hospital to medical laboratory. Our solutions consists of UAV with big enough cargo bay (45 litres) and set of procedures allowing medical services to safely deliver medical samples to laboratory in efficient way. Spectre-1 solution dedicated to monitoring long infrastructure such as gas pipelines, oil pipelines, borders and road infrastructure. The solution for infrastructure monitoring. The Spectre-1 solution is perfect for monitoring over a large area. Thanks to the unique structure of the VTOL, the solution combines the features of a fixed wing and a multi-rotor. The solution allows you to patrol over long distances without the need to invest in additional infrastructure.",
-        "picture": "/assets/spectreSolutions.png",
+        "picture": "/assets/spectre.png",
         "website":"https://spectre.solutions"
     },
     {
@@ -52,7 +52,7 @@
         "country": "USA 🇺🇸",
         "industry": "Ai Healthcare",
         "description" : "Nuvo was founded to address the very intimate challenges parents face throughout the various stages of pregnancy. Oren Oz, CEO and inventor of INVU, realized from his wife’s personal experience that pregnancy care was in need of improvement. He believed that expectant parents would benefit from more accurate, reliable and real-time data to reduce worry and stress as well as improve pregnancy outcomes. INVU enables remote pregnancy management so that physicians can monitor and consult women as needed in the comfort of their own environments, no matter where they are. With INVU, Moms-to-be and their loved ones can share their data and rest assured their care is the best possible.",
-        "picture": "/assets/nuvo.png",
+        "picture": "/assets/nuvo.svg",
         "website":"https://www.nuvocares.com/"
     },
     {
@@ -60,7 +60,15 @@
         "country": "USA 🇺🇸",
         "industry": "Ai Healthcare",
         "description" : "XOLTAR revolutionizes remote patient digital interaction through an engaging live video chat between the patient and an AI agent with a human touch. XOLTAR’s unique technology combines Machine Learning algorithms together with Behavioral Science, helping patients remove barriers throughout the treatment journey.",
-        "picture": "/assets/xoltar.png",
+        "picture": "/assets/xoltar.svg",
         "website":"https://xoltar.com/"
+    },
+    {
+        "name":"Legacy Technologies",
+        "country": "British Virgin Islands 🇹🇨",
+        "industry": "Next Generation Data Center",
+        "description" : "Legacy Technologies GmbH, is a German company specialized in High Secured Data Centers implementing sophisiticated Cyber Security tools and new techniques for the integration of high efficiency and environmental friendly data centers. The collaboration will also provide a manufacturing facility in KSA to create the most innovative DCs which will be exported to the global market. Both parties are proud to be part of the Kingdom Vision 2030 and the Digital Transformation in the country.",
+        "picture": "/assets/legacyTechnologies.webp",
+        "website":"https://legacy-technologies.org"
     }
 ]

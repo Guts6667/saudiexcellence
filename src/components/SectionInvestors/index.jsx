@@ -7,13 +7,13 @@ import './SectionInvestors.scss'
 const SectionInvestors = () => {
     return(
 
-        <section className="container__investors" id="investors">
+        <section className="container__investors" id="partners">
             <div className="container__investors-title">
                     <span className="line"></span>
-                    <div>
-                        <h2>Our Investors.</h2>
-                        <span>Saudi Excellence &co is backed with $100 million in the capital by SDAIA and Saudi Banks and Private Family Offices.</span>
-                    </div>
+                    <h2>Strategic Partners.</h2>
+                </div>
+                <div className="container__investors-subtitle">
+                        <span>Saudi Excellence & Co is actively collaborating with SDAIA.</span>
                 </div>
             <CarouselInvestors />
         </section>

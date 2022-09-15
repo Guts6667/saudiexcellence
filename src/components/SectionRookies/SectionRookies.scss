@@ -14,21 +14,21 @@ $green: #e0f970;
 
     .line {
       height: 1px;
-      width: 15%;
+      width: 7%;
       background-color: $green;
       margin-right: 2%;
+      margin-block: 0;
     }
-    span {
+  }
+  &-subtitle {
+    color: white;
+    margin-left: 9%;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    @media only screen and (min-width: 1024px) {
       font-weight: 400;
-      font-size: 14px;
-      color: white;
-      display: inline-block;
-      width: 80%;
-      margin-bottom: 30px;
-      @media only screen and (min-width: 1024px) {
-        font-weight: 400;
-        font-size: 25px;
-      }
+      font-size: 18px;
     }
   }
 }

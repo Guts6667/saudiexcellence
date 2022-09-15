@@ -1,21 +1,24 @@
 [
     {
-        "name" : "",
+        "name" : "Mohammed Al Homari",
         "role" : "CTO",
         "picture" : "/assets/placeholder-cto.png",
-        "linkedin" : ""
+        "linkedin" : "",
+        "mail" : "alomari@saudiexcellenceco.com"
     },
     {
-        "name" : "",
+        "name" : "Idris Zein",
         "role" : "COO",
         "picture" : "/assets/placeholder-coo.png",
-        "linkedin" : ""
+        "linkedin" : "",
+        "mail" : "zein@saudiexcellenceco.com"
     },
     {
-        "name" : "",
+        "name" : "Ori Magal",
         "role" : "CFO",
         "picture" : "/assets/placeholder-cfo.png",
-        "linkedin" : ""
+        "linkedin" : "",
+        "mail" : "magal@saudiexcellenceco.com"
     }
    
 ]

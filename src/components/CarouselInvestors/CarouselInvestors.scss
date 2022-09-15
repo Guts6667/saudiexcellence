@@ -8,8 +8,7 @@ $green: #e0f970;
     border-radius: 50%;
     height: 30vh;
     width: 30vh;
-    object-fit: cover;
-    background-color: #4948488c;
+    object-fit: contain;
   }
   .chevron {
     color: $green;
@@ -32,7 +31,7 @@ $green: #e0f970;
     display: block;
     width: 35vh;
     height: 35vh;
-    object-fit: cover;
+    object-fit: contain;
     padding: 10px;
   }
   .chevron {

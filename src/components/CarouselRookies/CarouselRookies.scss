@@ -3,12 +3,11 @@ $green: #e0f970;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  column-gap: 20px;
+  // column-gap: 20px;
   img {
     height: 200px;
     width: 200px;
     object-fit: contain;
-    background-color: #4948488c;
   }
   .chevron {
     color: $green;
@@ -25,9 +24,9 @@ $green: #e0f970;
   display: flex;
   flex-flow: wrap;
   align-items: center;
-  justify-content: space-evenly;
-
-  row-gap: 20px;
+  justify-content: space-between;
+  margin: 0 7%;
+  row-gap: 30px;
   article {
     width: 30%;
   }
