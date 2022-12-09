@@ -9,6 +9,7 @@ const CarouselRookies = () => {
 
     let [index, setIndex] = useState(0)
     let [datasRookies, setDatasRookies] = useState([]);
+    // eslint-disable-next-line
     let [length, setLength] = useState();
     useEffect(() => {
         fetch('/datas/rookies.json')
@@ -19,7 +20,7 @@ const CarouselRookies = () => {
             setDatasRookies(false)
         }
         
-    }, [])
+    }, [datasRookies])
     
     const previousCard = () =>{
         setLength(datasRookies.length);
