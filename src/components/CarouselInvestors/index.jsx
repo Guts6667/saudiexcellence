@@ -8,6 +8,7 @@ import BoxInvestor from "../BoxInvestor";
 const CarouselInvestors = () => {
     let [index, setIndex] = useState(0)
     let [datasInvestors, setDatasInvestors] = useState([]);
+    // eslint-disable-next-line
     let [length, setLength] = useState(undefined);
     useEffect(() => {
         fetch('/datas/investors.json')
@@ -18,7 +19,7 @@ const CarouselInvestors = () => {
             setDatasInvestors(false)
         }
         setLength(datasInvestors.length);
-    }, [])
+    }, [datasInvestors])
     
     const previousCard = () =>{
         if(index === 0){
