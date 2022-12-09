@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Coolvetica";
-  src: url("./fonts/coolvetica/coolvetica\ rg.otf") format("otf");
+  src: url("./fonts/coolvetica/coolvetica\ rg.otf") format("opentype");
 
   font-family: "Poppins";
-  src: url("./fonts/Poppins/Poppins-Regular.ttf") format(("ttf"));
-  src: url("./fonts/Poppins/Poppins-Bold.ttf") format(("ttf"));
-  src: url("./fonts/Poppins/Poppins-Light.ttf") format(("ttf"));
+  src: url("./fonts/Poppins/Poppins-Regular.ttf") format(("truetype"));
+  src: url("./fonts/Poppins/Poppins-Bold.ttf") format(("truetype"));
+  src: url("./fonts/Poppins/Poppins-Light.ttf") format(("truetype"));
 }
 * {
   font-family: "Poppins", "Coolvetica", Arial, Helvetica, sans-serif;
