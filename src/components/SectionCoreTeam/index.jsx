@@ -2,6 +2,10 @@ import React from "react";
 import CarouselCoreTeam from "../CarouselCoreTeam";
 import './SectionCoreTeam.scss'
 
+/**
+ * SectionCoreTeam
+ * @returns {JSX} React Component
+ */
 const SectionCoreTeam = () => {
     return (
         <section className="container__coreTeam">

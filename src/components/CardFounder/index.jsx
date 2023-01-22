@@ -1,5 +1,11 @@
 import React from "react";
 import './CardFounder.scss'
+
+/**
+ * CardFounder
+ * @param {Array} datas 
+ * @returns {JSX} React Component
+ */
 const CardFounder = (data) => {
 const {picture, name, text, linkedin, role} = data.data;
 

@@ -1,6 +1,10 @@
 import React from "react";
 import './BurgerMenu.scss'
 
+/**
+ * BurgerMenu
+ * @returns {JSX} React Component
+ */
 const BurgerMenu = () =>{
     
     function toggleBtn(){

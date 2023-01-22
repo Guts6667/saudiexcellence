@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import './CarouselCoreTeam.scss';
 import CardCoreTeam from "../CardCoreTeam";
+/**
+ * CarouselCoreTeam
+ * @returns {JSX} React Component
+ */
 function CarouselCoreTeam(){
     let [index, setIndex] = useState(0)
     const [datasCoreTeam, setDatasCoreTeam] = useState([]);

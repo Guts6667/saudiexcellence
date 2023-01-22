@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import CardFounder from "../CardFounder";
 import './SectionTeam.scss'
 
+/**
+ * SectionTeam
+ * @returns {JSX} React Component
+ */
 const SectionTeam = () => {
     const [datasFounders, setDatasFounders] = useState([]);
 useEffect(() => {

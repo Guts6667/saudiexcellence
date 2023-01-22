@@ -3,6 +3,10 @@ import './Header.scss'
 // import logo from '../../assets/Logo_SEC.png'
 import BurgerNav from "../BurgerNav";
 
+/**
+ * Header
+ * @returns {JSX} React Component
+ */
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     function toggleBtn() {

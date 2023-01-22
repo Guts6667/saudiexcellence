@@ -9,6 +9,11 @@ import SectionAdvisor from "../../components/SectionAdvisor";
 import SectionInvestors from "../../components/SectionInvestors";
 import SectionRookies from "../../components/SectionRookies";
 import SectionContact from "../../components/SectionContact";
+
+/**
+ * Home
+ * @returns {JSX} React Component
+ */
 const Home = () => {
 
     return(

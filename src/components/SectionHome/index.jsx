@@ -3,7 +3,10 @@ import './SectionHome.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
-
+/**
+ * SectionHome
+ * @returns {JSX} React Component
+ */
 const SectionHome = () => {
     return(
         <section className="section__home">

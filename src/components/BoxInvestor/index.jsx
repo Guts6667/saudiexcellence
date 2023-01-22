@@ -1,5 +1,10 @@
 import React from "react";
 
+/**
+ * Box Investor
+ * @param {Array} datas 
+ * @returns {JSX} React Component
+ */
 const BoxInvestor = ({datas}) => {  
 return(
     datas &&(

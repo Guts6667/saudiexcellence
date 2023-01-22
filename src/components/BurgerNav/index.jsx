@@ -1,9 +1,11 @@
 import React from "react";
 import './BurgerNav.scss'
 
+/**
+ * BurgerNav
+ * @returns {JSX} React Component
+ */
 const BurgerNav = () => {
-
-
     return(
         <nav className="container__burgerNav">
             <a href="#about">About</a>

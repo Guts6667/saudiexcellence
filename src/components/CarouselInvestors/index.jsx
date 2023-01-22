@@ -5,6 +5,10 @@ import { faChevronRight, faChevronLeft } from "@fortawesome/free-solid-svg-icons
 import BoxInvestor from "../BoxInvestor";
 
 
+/**
+ * CarouselInvestors
+ * @returns {JSX} React Component
+ */
 const CarouselInvestors = () => {
     let [index, setIndex] = useState(0)
     let [datasInvestors, setDatasInvestors] = useState([]);

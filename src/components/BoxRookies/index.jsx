@@ -2,6 +2,12 @@ import React from "react";
 import './BoxRookies.scss'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+
+/**
+ * BoxRookies
+ * @param {Array} datas 
+ * @returns {JSX} React Component
+ */
 const BoxRookies = ({datas}) => {
     return(
         datas &&(

@@ -3,7 +3,10 @@ import CarouselInvestors from "../CarouselInvestors";
 import './SectionInvestors.scss'
 
 
-
+/**
+ * SectionInvestors
+ * @returns {JSX} React Component
+ */
 const SectionInvestors = () => {
     return(
 

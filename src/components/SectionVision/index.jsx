@@ -1,6 +1,11 @@
 import React from "react";
 import './SectionVision.scss'
 
+
+/**
+ * SectionVision
+ * @returns {JSX} React Component
+ */
 const SectionVision = () => {
 
     return(

@@ -2,6 +2,11 @@ import React from "react";
 import './CardCoreTeam.scss'
 
 
+/**
+ * CardCoreTeam
+ * @param {Array} datas 
+ * @returns {JSX} React Component
+ */
 const CardCoreTeam = ({datas}) => {
     return(   
         datas && (

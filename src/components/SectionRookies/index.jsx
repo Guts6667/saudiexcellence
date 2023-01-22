@@ -2,6 +2,10 @@ import React from "react";
 import CarouselRookies from "../CarouselRookies";
 import './SectionRookies.scss'
 
+/**
+ * SectionRookies
+ * @returns {JSX} React Component
+ */
 const SectionRookies = () =>{
 
     return(

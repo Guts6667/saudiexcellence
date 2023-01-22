@@ -3,6 +3,10 @@ import BoxTextLeft from "../BoxTextLeft";
 import BoxTextRight from "../BoxTextRight";
 import './SectionMission.scss'
 
+/**
+ * SectionMission
+ * @returns {JSX} React Component
+ */
 const SectionMission = () => {
     const texts = [
         {

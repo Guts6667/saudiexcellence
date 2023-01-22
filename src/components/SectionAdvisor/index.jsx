@@ -1,6 +1,10 @@
 import React from "react";
 import './SectionAdvisor.scss';
 
+/**
+ * SectionAdvisor
+ * @returns {JSX} React Component
+ */
 const SectionAdvisor = () => {
 
     const datas = [

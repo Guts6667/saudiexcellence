@@ -4,7 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import BoxRookies from "../BoxRookies";
 
-
+/**
+ * CarouselRookies
+ * @returns {JSX} React Component
+ */
 const CarouselRookies = () => {
 
     let [index, setIndex] = useState(0)

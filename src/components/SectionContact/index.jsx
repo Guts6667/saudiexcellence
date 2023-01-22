@@ -3,7 +3,10 @@ import FormContact from "../FormContact";
 import './SectionContact.scss'
 // import { FontAwesomeIcon, } from "@fortawesome/react-fontawesome";
 
-
+/**
+ * SectionContact
+ * @returns {JSX} React Component
+ */
 const SectionContact = () => {
     return(
         <section className="container__contact" id="contact">

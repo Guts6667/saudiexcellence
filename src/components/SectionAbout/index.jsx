@@ -1,6 +1,10 @@
 import React from "react";
 import './SectionAbout.scss'
 
+/**
+ * SectionAbout
+ * @returns {JSX} React Component
+ */
 const SectionAbout = () => {
 
     return(
