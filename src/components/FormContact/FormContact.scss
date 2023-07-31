@@ -38,6 +38,12 @@ form {
     align-self: flex-end;
     width: 40%;
     background-color: transparent;
+    padding: none !important;
+    cursor: pointer;
+
+    @media only screen and (max-width: 390px) {
+      font-size: 16px;
+    }
   }
 }
 .form-thanks {

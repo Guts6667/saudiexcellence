@@ -34,7 +34,9 @@ const FormContact = () => {
             <input type="email" name="user_email" placeholder={'Email'} />
             <input type="text" name="user_subject" placeholder={"Subject"}/>
             <textarea name="message" placeholder={'Message'} />
-            <input type="submit" value="Send" className="submit-btn" />
+            
+            {/* <input type="submit" value="Send" className="submit-btn" /> */}
+            <button onClick={sendEmail} className="submit-btn">Send</button>
         </form>
             </section>
             

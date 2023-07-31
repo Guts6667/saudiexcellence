@@ -1,13 +1,5 @@
 [
     {
-        "name":"LivingPackets",
-        "country": "France 🇫🇷",
-        "industry": "Ai logistics",
-        "description" : "LivingPackets technology prevents problems before they happen. It's protective, preventive and customizable. Integrated sensors allow you to know at any time where and in what state your package is.",
-        "picture": "/assets/livingpackets.svg",
-        "website":"https://livingpackets.com"
-    },
-    {
         "name":"Entangle",
         "country": "UK 🇬🇧",
         "industry": "Defi",
@@ -24,28 +16,12 @@
         "website":"https://disruptionx.io"
     },
     {
-        "name":"Edge Dynamics",
-        "country": "Netherlands 🇳🇱",
-        "industry": "IIoT Futur Sensors",
-        "description" : "Edge Dynamics develops and implements IOT solutions for the industrial sector using LoRaWan wireless technology. We envision a future where wireless IOT devices such as temperature, vibration and pressure sensors will be widely used to avoid expensive installation cost for non-critical applications that otherwise would be difficult to justify. Data points can be used to monitor the condition of equipment at all time to detect changes that can result in unexpected equipment failures.",
-        "picture": "/assets/edgeDynamics.png",
-        "website":"https://www.edgedynamics.eu"
-    },
-    {
         "name":"Nala Robotics",
         "country": "USA 🇺🇸",
         "industry": "Ai Robotics",
         "description" : "We’re a veteran team of hands-on operators with deep executive experience running successful businesses in technology and culinary industries.",
         "picture": "/assets/nala.png",
         "website":"https://nalarobotics.com/"
-    },
-    {
-        "name":"Spectre Solution",
-        "country": "Poland 🇵🇱",
-        "industry": "Ai Drones",
-        "description" : "Spectre-1 allows to take up to 3kg of medical supplies and safely deliver them from hospital to medical laboratory. Our solutions consists of UAV with big enough cargo bay (45 litres) and set of procedures allowing medical services to safely deliver medical samples to laboratory in efficient way. Spectre-1 solution dedicated to monitoring long infrastructure such as gas pipelines, oil pipelines, borders and road infrastructure. The solution for infrastructure monitoring. The Spectre-1 solution is perfect for monitoring over a large area. Thanks to the unique structure of the VTOL, the solution combines the features of a fixed wing and a multi-rotor. The solution allows you to patrol over long distances without the need to invest in additional infrastructure.",
-        "picture": "/assets/spectre.png",
-        "website":"https://spectre.solutions"
     },
     {
         "name":"NUVO",
