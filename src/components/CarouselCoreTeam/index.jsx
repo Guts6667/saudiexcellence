@@ -19,14 +19,14 @@ function CarouselCoreTeam(){
     }, [])
     const previousCard = () =>{
         if(index === 0){
-            setIndex(2);
+            setIndex(1);
         }
         else{
             setIndex(index -1)
         }
     }
     const nextCard = () =>{
-        if(index === 2){
+        if(index === 1){
             setIndex(0);
         }
         else{
