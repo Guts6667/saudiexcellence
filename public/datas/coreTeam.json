@@ -7,10 +7,18 @@
     "mail": "alomari@saudiexcellenceco.com"
   },
   {
+    "name": "Dr. Jerome Pierre Bilet",
+    "role": "Partner",
+    "text": "“Dr. Jerome Pierre Bilet has over 40 years of experience in technology, IT, security, cybersecurity, aerospace, and oil & gas. For the last eight years, he was the Director of Strategy at Saudi Advanced Technologies (Wahaj). He co-founded AlliedContech LLC (UAE) and founded Allied Contech (Saudi Arabia). Before that, he spent 20 years managing firms in London, focusing on business development, technology transfer, and joint ventures in cybersecurity and aerospace. He previously founded Chronicle Solutions Plc and ESIA SA, which specialised in cybersecurity and security services. Dr. Bilet holds a PhD in Finance and has published on topics from artificial neural networks to defence technologies.”",
+    "picture": "/assets/jerome-pierre-bilet.jpeg",
+    "mail": "jeromepierre@saudiexcellenceco.com"
+  },
+  {
     "name": "Idris Zein",
     "role": "COO",
     "picture": "/assets/placeholder-coo.png",
     "linkedin": "",
     "mail": "zein@saudiexcellenceco.com"
   }
+  
 ]
